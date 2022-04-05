@@ -175,8 +175,8 @@
         max-width: 100%;
     }
     .col-md-1 {
-            flex-basis: calc(100% / 12);
-            max-width: calc(100% / 12);
+        flex-basis: calc(100% / 12);
+        max-width: calc(100% / 12);
         }
     .col-md-2 {
         flex-basis: calc(100% / 12 *2);
