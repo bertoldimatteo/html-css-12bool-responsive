@@ -1,0 +1,30 @@
+/*----------
+    debug
+ ----------*/
+ [class*="col-"] {
+     background-color: #006cfa;
+     color: #fff;
+     text-align: center;
+     padding: 10px 15px;
+     border: 1px solid #fff;
+ }
+
+ [class*="col-"] [class*="col-"] {
+     background-color: #00e165;
+     border: none;
+ }
+
+ .row-nested {
+     gap: 2px;
+     flex-wrap: nowrap;
+ }
+ .container2 [class*="col-"] {
+     width: 128px;
+     height: 40px;
+ }
+/*----------
+   commons 
+ ----------*/
+ .container, .container2 {
+     margin-bottom: 20px;
+ }
